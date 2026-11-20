@@ -1,0 +1,1851 @@
+{
+  "repo": "parking-api-endpoints",
+  "title": "Parking API endpoints",
+  "snapshot": "2026-11-15",
+  "snapshot_text": "15 Nov 2026",
+  "snapshot_time": "2026-11-15 09:06:22 IST",
+  "tested_total": 5129834,
+  "passed_total": 3726509,
+  "rows": 12327,
+  "unique_urls": 12327,
+  "services": 3189,
+  "country_codes": 59,
+  "single_country": null,
+  "agent_ready": 10126,
+  "range": {
+    "min": "2026-11-11",
+    "max": "2026-11-15",
+    "text": "11–15 Nov 2026"
+  },
+  "formats": {
+    "json": 10126,
+    "csv": 1034,
+    "xml": 645,
+    "geojson": 390,
+    "zip": 119,
+    "txt": 13
+  },
+  "categories": {
+    "Transport & Mobility": 11006,
+    "Government & Open Data": 846,
+    "Navigation & Geo/Maps": 146,
+    "Hydrology & Oceans": 109,
+    "Weather & Climate": 93,
+    "Maritime": 60,
+    "Hazards": 39,
+    "Aviation": 26,
+    "Environment": 1,
+    "Health": 1
+  },
+  "tags": {
+    "no-key": 12327,
+    "parking": 12327,
+    "transit": 11073,
+    "agent-ready": 10126,
+    "json": 10126,
+    "maps": 9520,
+    "open-data": 2756,
+    "government": 1199,
+    "csv": 1034,
+    "xml": 645,
+    "geojson": 390,
+    "traffic": 121,
+    "water": 109,
+    "weather": 102,
+    "maritime": 64,
+    "statistics": 64,
+    "rivers": 45,
+    "hazards": 41,
+    "aviation": 36,
+    "environment": 15,
+    "elevation": 12,
+    "finance": 10,
+    "health": 10,
+    "energy": 9,
+    "floods": 7,
+    "science": 7,
+    "forecast": 5,
+    "oceans": 5,
+    "bike-share": 3,
+    "economy": 3,
+    "geocoding": 3,
+    "groundwater": 2,
+    "tides": 2,
+    "air-quality": 1,
+    "speech": 1,
+    "volcanoes": 1
+  },
+  "dates": {
+    "2026-11-15": 5251,
+    "2026-11-14": 6294,
+    "2026-11-13": 28,
+    "2026-11-12": 474,
+    "2026-11-11": 280
+  },
+  "countryNames": {
+    "US": "United States",
+    "DE": "Germany",
+    "AT": "Austria",
+    "NO": "Norway",
+    "FR": "France",
+    "EU": "European Union",
+    "ES": "Spain",
+    "CA": "Canada",
+    "IT": "Italy",
+    "IE": "Ireland",
+    "CN": "China",
+    "NZ": "New Zealand",
+    "CZ": "Czechia",
+    "GB": "United Kingdom",
+    "CH": "Switzerland",
+    "BE": "Belgium",
+    "GR": "Greece",
+    "SE": "Sweden",
+    "SK": "Slovakia",
+    "NL": "Netherlands",
+    "ZA": "South Africa",
+    "IL": "Israel",
+    "VI": "Virgin Islands, U.S.",
+    "MY": "Malaysia",
+    "CO": "Colombia",
+    "AU": "Australia",
+    "RS": "Serbia",
+    "LU": "Luxembourg",
+    "FI": "Finland",
+    "SI": "Slovenia",
+    "UA": "Ukraine",
+    "JP": "Japan",
+    "PT": "Portugal",
+    "KR": "South Korea",
+    "HK": "Hong Kong",
+    "IN": "India",
+    "DK": "Denmark",
+    "RU": "Russia",
+    "TW": "Taiwan",
+    "PH": "Philippines",
+    "EE": "Estonia",
+    "PL": "Poland",
+    "HN": "Honduras",
+    "JM": "Jamaica",
+    "AL": "Albania",
+    "LT": "Lithuania",
+    "IO": "British Indian Ocean Territory",
+    "HR": "Croatia",
+    "TR": "Turkiye",
+    "LV": "Latvia",
+    "FO": "Faroe Islands",
+    "TH": "Thailand",
+    "MX": "Mexico",
+    "TG": "Togo",
+    "SG": "Singapore",
+    "BG": "Bulgaria",
+    "BB": "Barbados",
+    "SA": "Saudi Arabia",
+    "VC": "Saint Vincent and the Grenadines"
+  },
+  "leftOutCredential": 0,
+  "leftOutListing": 0,
+  "left_out_by_reason": {
+    "listing page, not a data call": 0,
+    "credential in the address": 0,
+    "private or local address": 0,
+    "email-like address": 0,
+    "survey form layer": 177,
+    "camera or image URL": 0,
+    "stored-login proxy": 0,
+    "class-exercise copy": 0,
+    "editable layer": 2,
+    "police stop records": 0,
+    "form answer layer": 21,
+    "needs an Indian network location": 0,
+    "leak check match": 0,
+    "coursework layer": 98,
+    "public input layer": 19,
+    "service name like a class layer or a person": 0,
+    "social network server information": 7,
+    "repeated address": 0
+  },
+  "leftOutExcluded": 0,
+  "left_out_by_rule": [],
+  "sample_rows": 1000,
+  "focus_rows": 10586,
+  "arcgis_online_rows": 7017,
+  "subcategories": {},
+  "agent_formats": [
+    "json"
+  ],
+  "largestServices": [
+    {
+      "service": "maps2.dcgis.dc.gov",
+      "display": "maps2.dcgis.dc.gov",
+      "host": "maps2.dcgis.dc.gov",
+      "endpoints": 448,
+      "agent_ready": 448,
+      "in_focus": 263,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "University of Exeter (ArcGIS Online)",
+      "display": "University of Exeter (ArcGIS Online)",
+      "host": "services5.arcgis.com",
+      "endpoints": 221,
+      "agent_ready": 221,
+      "in_focus": 218,
+      "country_codes": 3,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "opendata.dc.gov",
+      "display": "opendata.dc.gov",
+      "host": "opendata.dc.gov",
+      "endpoints": 191,
+      "agent_ready": 63,
+      "in_focus": 103,
+      "country_codes": 1,
+      "formats": [
+        "csv",
+        "json",
+        "xml"
+      ]
+    },
+    {
+      "service": "Lombardia",
+      "display": "Lombardia",
+      "host": "www.dati.lombardia.it",
+      "endpoints": 131,
+      "agent_ready": 48,
+      "in_focus": 131,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "xml",
+        "csv"
+      ]
+    },
+    {
+      "service": "ArcGIS organization ExKzFjtGCmTXLlFV",
+      "display": "ArcGIS Online layers (services3.arcgis.com, org ExKzFjtGCmTXLlFV)",
+      "host": "services3.arcgis.com",
+      "endpoints": 92,
+      "agent_ready": 92,
+      "in_focus": 92,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "NYC Open Data (Socrata)",
+      "display": "NYC Open Data (Socrata)",
+      "host": "data.cityofnewyork.us",
+      "endpoints": 81,
+      "agent_ready": 40,
+      "in_focus": 79,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "xml",
+        "csv",
+        "zip"
+      ]
+    },
+    {
+      "service": "data.gov.au",
+      "display": "data.gov.au",
+      "host": "data.melbourne.vic.gov.au",
+      "endpoints": 76,
+      "agent_ready": 59,
+      "in_focus": 71,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "csv",
+        "geojson",
+        "xml"
+      ]
+    },
+    {
+      "service": "tabular-api.data.gouv.fr",
+      "display": "tabular-api.data.gouv.fr",
+      "host": "tabular-api.data.gouv.fr",
+      "endpoints": 75,
+      "agent_ready": 75,
+      "in_focus": 75,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "datamillnorth.org",
+      "display": "datamillnorth.org",
+      "host": "datamillnorth.org",
+      "endpoints": 71,
+      "agent_ready": 0,
+      "in_focus": 71,
+      "country_codes": 1,
+      "formats": [
+        "csv",
+        "xml"
+      ]
+    },
+    {
+      "service": "Nantesmetropole",
+      "display": "Nantesmetropole",
+      "host": "data.nantesmetropole.fr",
+      "endpoints": 69,
+      "agent_ready": 34,
+      "in_focus": 69,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "csv",
+        "geojson"
+      ]
+    },
+    {
+      "service": "data.gov.rs",
+      "display": "data.gov.rs",
+      "host": "data.gov.rs",
+      "endpoints": 69,
+      "agent_ready": 3,
+      "in_focus": 67,
+      "country_codes": 1,
+      "formats": [
+        "csv",
+        "geojson",
+        "zip",
+        "json"
+      ]
+    },
+    {
+      "service": "Surreycc",
+      "display": "Surreycc",
+      "host": "sccmaps.surreycc.gov.uk",
+      "endpoints": 61,
+      "agent_ready": 61,
+      "in_focus": 61,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "vector.sitg.ge.ch",
+      "display": "vector.sitg.ge.ch",
+      "host": "vector.sitg.ge.ch",
+      "endpoints": 57,
+      "agent_ready": 29,
+      "in_focus": 40,
+      "country_codes": 2,
+      "formats": [
+        "json",
+        "xml",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Upm",
+      "display": "Upm",
+      "host": "broker-yoda.dit.upm.es",
+      "endpoints": 57,
+      "agent_ready": 57,
+      "in_focus": 57,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Texas Tech University (ArcGIS Online)",
+      "display": "Texas Tech University (ArcGIS Online)",
+      "host": "services2.arcgis.com",
+      "endpoints": 56,
+      "agent_ready": 56,
+      "in_focus": 56,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Saemes",
+      "display": "Saemes",
+      "host": "opendata.saemes.fr",
+      "endpoints": 52,
+      "agent_ready": 28,
+      "in_focus": 52,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "csv",
+        "geojson"
+      ]
+    },
+    {
+      "service": "ArcGIS organization HUP9nOAGSEOUUsmE",
+      "display": "ArcGIS Online layers (services6.arcgis.com, org HUP9nOAGSEOUUsmE)",
+      "host": "services6.arcgis.com",
+      "endpoints": 45,
+      "agent_ready": 45,
+      "in_focus": 44,
+      "country_codes": 3,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Transparenzportal Hamburg",
+      "display": "Transparenzportal Hamburg",
+      "host": "archiv.transparenz.hamburg.de",
+      "endpoints": 45,
+      "agent_ready": 0,
+      "in_focus": 9,
+      "country_codes": 1,
+      "formats": [
+        "xml"
+      ]
+    },
+    {
+      "service": "Портал відкритих даних",
+      "display": "Портал відкритих даних",
+      "host": "data.gov.ua",
+      "endpoints": 45,
+      "agent_ready": 5,
+      "in_focus": 43,
+      "country_codes": 1,
+      "formats": [
+        "csv",
+        "zip",
+        "json"
+      ]
+    },
+    {
+      "service": "Grandlyon",
+      "display": "Grandlyon",
+      "host": "data.grandlyon.com",
+      "endpoints": 44,
+      "agent_ready": 5,
+      "in_focus": 44,
+      "country_codes": 1,
+      "formats": [
+        "csv",
+        "geojson",
+        "json"
+      ]
+    },
+    {
+      "service": "Cityofchicago",
+      "display": "Cityofchicago",
+      "host": "data.cityofchicago.org",
+      "endpoints": 41,
+      "agent_ready": 14,
+      "in_focus": 7,
+      "country_codes": 1,
+      "formats": [
+        "xml",
+        "json",
+        "csv",
+        "zip"
+      ]
+    },
+    {
+      "service": "Dublinked Open Data for the Dublin Regio",
+      "display": "Dublinked Open Data for the Dublin Regio",
+      "host": "data.smartdublin.ie",
+      "endpoints": 41,
+      "agent_ready": 8,
+      "in_focus": 40,
+      "country_codes": 1,
+      "formats": [
+        "csv",
+        "json",
+        "geojson",
+        "xml",
+        "zip"
+      ]
+    },
+    {
+      "service": "Lacity",
+      "display": "Lacity",
+      "host": "data.lacity.org",
+      "endpoints": 38,
+      "agent_ready": 16,
+      "in_focus": 26,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "xml",
+        "csv",
+        "zip"
+      ]
+    },
+    {
+      "service": "opendata.schleswig-holstein.de",
+      "display": "opendata.schleswig-holstein.de",
+      "host": "opendata.schleswig-holstein.de",
+      "endpoints": 37,
+      "agent_ready": 9,
+      "in_focus": 32,
+      "country_codes": 1,
+      "formats": [
+        "csv",
+        "json"
+      ]
+    },
+    {
+      "service": "ep trafficservices (ArcGIS Online)",
+      "display": "ep trafficservices (ArcGIS Online)",
+      "host": "services3.arcgis.com",
+      "endpoints": 36,
+      "agent_ready": 36,
+      "in_focus": 35,
+      "country_codes": 2,
+      "formats": [
+        "json"
+      ]
+    }
+  ],
+  "bannerGroups": [
+    {
+      "label": "US",
+      "n": 7552,
+      "agent": 7164
+    },
+    {
+      "label": "FR",
+      "n": 806,
+      "agent": 544
+    },
+    {
+      "label": "GB",
+      "n": 743,
+      "agent": 547
+    },
+    {
+      "label": "DE",
+      "n": 371,
+      "agent": 67
+    },
+    {
+      "label": "CA",
+      "n": 369,
+      "agent": 287
+    },
+    {
+      "label": "AU",
+      "n": 295,
+      "agent": 236
+    }
+  ],
+  "focus_text": "title matches /parking|parkings|parkplatz|parkplätz|parkhaus|parkhäus|parkhauser|parken|parkmöglich|parkeer|parkier|parkade|parklet|parkir|parkovi|car[ _-]?parks?|carpark|lorry[ _-]?parks?|truck[ _-]?parks?|bike[ _-]?parks?|park[ _]?(and|&|\\+|n)[ _]?ride|stationnement|parcheggi|aparcamiento|estacionamiento|parqueadero|parqueo|garages?|parking meters?|parkingmeter|horodateur|pay (and|&) display|pay stations?|loading zones?|curb|kerb|bike[ _-]?racks?|cycle[ _-]?racks?|fietsenrek|blue badge|penalty charge|στάθμευσ|паркин/i AND NOT url contains \"/DCGIS_DATA/Planimetrics_\" AND NOT host is api.weather.gov AND NOT title matches /solar|photovolta/i AND NOT title matches /food[ _-]?trucks?/i AND NOT url matches /(^|[/_-])test[-_]|[-_]test(/|$)/i",
+  "buckets": [
+    {
+      "id": "agent",
+      "emoji": "🤖",
+      "name": "Agent tools",
+      "title": "Car parks, parking zones and occupancy an agent can look up",
+      "build": "Wrap one URL pattern as a find_parking tool: pass a city or a point, return nearby car parks or zones with capacity, occupancy where the source gives it, and the time of the reading.",
+      "filter": {
+        "and": [
+          {
+            "tag": "agent-ready"
+          },
+          {
+            "titleMatches": "parking|parkings|parkplatz|parkplätz|parkhaus|parkhäus|parkhauser|parken|parkmöglich|parkeer|parkier|parkade|parklet|parkir|parkovi|car[ _-]?parks?|carpark|lorry[ _-]?parks?|truck[ _-]?parks?|bike[ _-]?parks?|park[ _]?(and|&|\\+|n)[ _]?ride|stationnement|parcheggi|aparcamiento|estacionamiento|parqueadero|parqueo|garages?|parking meters?|parkingmeter|horodateur|pay (and|&) display|pay stations?|loading zones?|curb|kerb|bike[ _-]?racks?|cycle[ _-]?racks?|fietsenrek|blue badge|penalty charge|στάθμευσ|паркин"
+          },
+          {
+            "not": {
+              "titleMatches": "violation|citation|penalty charge|bußgeld|bussgeld|verwarn|parkverstö|amende|infraction|\\bfine[sd]?\\b"
+            }
+          },
+          {
+            "not": {
+              "titleMatches": "bike|bicycle|cycle|fahrrad|vélo|velo|fiets|bici|scooter|micromobil|trottinette|motorcycle|motos?\\b|2[ -]roues|deux[ -]roues"
+            }
+          }
+        ]
+      },
+      "filter_text": "tags has agent-ready AND title matches /parking|parkings|parkplatz|parkplätz|parkhaus|parkhäus|parkhauser|parken|parkmöglich|parkeer|parkier|parkade|parklet|parkir|parkovi|car[ _-]?parks?|carpark|lorry[ _-]?parks?|truck[ _-]?parks?|bike[ _-]?parks?|park[ _]?(and|&|\\+|n)[ _]?ride|stationnement|parcheggi|aparcamiento|estacionamiento|parqueadero|parqueo|garages?|parking meters?|parkingmeter|horodateur|pay (and|&) display|pay stations?|loading zones?|curb|kerb|bike[ _-]?racks?|cycle[ _-]?racks?|fietsenrek|blue badge|penalty charge|στάθμευσ|паркин/i AND NOT title matches /violation|citation|penalty charge|bußgeld|bussgeld|verwarn|parkverstö|amende|infraction|\\bfine[sd]?\\b/i AND NOT title matches /bike|bicycle|cycle|fahrrad|vélo|velo|fiets|bici|scooter|micromobil|trottinette|motorcycle|motos?\\b|2[ -]roues|deux[ -]roues/i",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 182,
+          "text": "have an occupancy, sensor or availability term in the title; the others are layers of car parks, lots, zones and meters."
+        },
+        {
+          "count": 6355,
+          "text": "are map-layer queries that asked for a few records (`resultRecordCount`); raise it or page through for the whole layer."
+        }
+      ],
+      "count": 7540,
+      "services_matching": 2611,
+      "country_codes_matching": 56,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://tabular-api.data.gouv.fr/api/resources/951a57d1-733e-4516-a4fe-0e48129345b7/data/?page_size=10",
+        "title": "data.gouv.fr tabular API: Disponibilité dans les Parking à Angers / parking-angers.csv",
+        "service": "tabular-api.data.gouv.fr",
+        "last_tested": "2026-11-15"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged `agent-ready` (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `title matches /occupan|occupation|belegung|bezetting|auslastung|sensor|availab|disponib|places libres|parkingspot|status/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 2606,
+        "services": [
+          {
+            "service": "tabular-api.data.gouv.fr",
+            "display": "tabular-api.data.gouv.fr",
+            "host": "tabular-api.data.gouv.fr",
+            "endpoints_in_bucket": 64,
+            "endpoints_in_pack": 75,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://tabular-api.data.gouv.fr/api/resources/951a57d1-733e-4516-a4fe-0e48129345b7/data/?page_size=10",
+            "sample_title": "data.gouv.fr tabular API: Disponibilité dans les Parking à Angers / parking-angers.csv",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Surreycc",
+            "display": "Surreycc",
+            "host": "sccmaps.surreycc.gov.uk",
+            "endpoints_in_bucket": 61,
+            "endpoints_in_pack": 61,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Highways_Team/Parking_Restrictions_Historic_Elmbridge/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Highways Team - Parking Restrictions Historic Elmbridge",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Upm",
+            "display": "Upm",
+            "host": "broker-yoda.dit.upm.es",
+            "endpoints_in_bucket": 57,
+            "endpoints_in_pack": 57,
+            "country_codes": [
+              "ES"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:ParkingSpot:santander:parking-byda-013",
+            "sample_title": "santander_parking-byda-013",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-12"
+          },
+          {
+            "service": "data.gov.au",
+            "display": "data.gov.au",
+            "host": "data.melbourne.vic.gov.au",
+            "endpoints_in_bucket": 57,
+            "endpoints_in_pack": 76,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data.melbourne.vic.gov.au/api/explore/v2.1/catalog/datasets/on-street-car-parking-sensor-data-2011/records?limit=1",
+            "sample_title": "On-street Car Parking Sensor Data - 2011",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-12"
+          },
+          {
+            "service": "Lombardia",
+            "display": "Lombardia",
+            "host": "www.dati.lombardia.it",
+            "endpoints_in_bucket": 48,
+            "endpoints_in_pack": 131,
+            "country_codes": [
+              "IT"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://www.dati.lombardia.it/api/views/5pug-sich/rows.json?accessType=DOWNLOAD",
+            "sample_title": "Municipality of Cremosano - Car parks",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "maps2.dcgis.dc.gov",
+            "display": "maps2.dcgis.dc.gov",
+            "host": "maps2.dcgis.dc.gov",
+            "endpoints_in_bucket": 42,
+            "endpoints_in_pack": 448,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://maps2.dcgis.dc.gov/DCGIS/rest/services/DCGIS_DATA/Transportation_Parking_WebMercator/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Parking Blockface",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "ep trafficservices (ArcGIS Online)",
+            "display": "ep trafficservices (ArcGIS Online)",
+            "host": "services3.arcgis.com",
+            "endpoints_in_bucket": 35,
+            "endpoints_in_pack": 36,
+            "country_codes": [
+              "GB"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services3.arcgis.com/hHDQkgojj58wkwXq/arcgis/rest/services/Alive_Disabled_Parking_Route/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Alive Disabled Parking Route",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Nantesmetropole",
+            "display": "Nantesmetropole",
+            "host": "data.nantesmetropole.fr",
+            "endpoints_in_bucket": 31,
+            "endpoints_in_pack": 69,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://data.nantesmetropole.fr/api/explore/v2.1/catalog/datasets/244400404_parcs-relais-nantes-metropole-disponibilites/exports/json",
+            "sample_title": "Nantes Métropole: Disponibilités en temps réel des places dans les parkings-relais Naolib de Nantes Métropole / 244400404_parcs-relais-nantes-metropole-disponibilites.j",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "name": "App features",
+      "title": "Car parks, on-street zones, meters and accessible bays for a parking map",
+      "build": "Draw car parks, garages, on-street zones, meters and accessible bays on a map, and show capacity, tariff or opening hours where the layer has them.",
+      "filter": {
+        "and": [
+          {
+            "titleMatches": "car[ _-]?parks?|carpark|garage|parkhaus|parkhäus|parkhauser|\\blots?\\b|parking (lots?|spaces?|areas?|zones?|bays?|places?|facilit|structures?|garages?)|on[- ]street|meters?|horodateur|accessible|disabled|handicap|blue badge|\\bpmr\\b|park[ _]?(and|&|\\+|n)[ _]?ride|stationnement|parcheggi|parkplatz|parkplätz|parkeer"
+          },
+          {
+            "not": {
+              "titleMatches": "violation|citation|penalty charge|bußgeld|bussgeld|verwarn|parkverstö|amende|infraction|\\bfine[sd]?\\b"
+            }
+          },
+          {
+            "not": {
+              "titleMatches": "bike|bicycle|cycle|fahrrad|vélo|velo|fiets|bici|scooter|micromobil|trottinette|motorcycle|motos?\\b|2[ -]roues|deux[ -]roues"
+            }
+          }
+        ]
+      },
+      "filter_text": "title matches /car[ _-]?parks?|carpark|garage|parkhaus|parkhäus|parkhauser|\\blots?\\b|parking (lots?|spaces?|areas?|zones?|bays?|places?|facilit|structures?|garages?)|on[- ]street|meters?|horodateur|accessible|disabled|handicap|blue badge|\\bpmr\\b|park[ _]?(and|&|\\+|n)[ _]?ride|stationnement|parcheggi|parkplatz|parkplätz|parkeer/i AND NOT title matches /violation|citation|penalty charge|bußgeld|bussgeld|verwarn|parkverstö|amende|infraction|\\bfine[sd]?\\b/i AND NOT title matches /bike|bicycle|cycle|fahrrad|vélo|velo|fiets|bici|scooter|micromobil|trottinette|motorcycle|motos?\\b|2[ -]roues|deux[ -]roues/i",
+      "fallback": false,
+      "notes": [],
+      "count": 3266,
+      "services_matching": 1294,
+      "country_codes_matching": 35,
+      "formats_matching": 6,
+      "example": {
+        "url": "https://www.dati.lombardia.it/api/views/5pug-sich/rows.json?accessType=DOWNLOAD",
+        "title": "Municipality of Cremosano - Car parks",
+        "service": "Lombardia",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `title matches /car[ _-]?parks?|garage|parkhaus|parking (lots?|spaces?|garages?)/i AND NOT title matches /charging|charge point|chargepoint|recharge|ladesäul|ladestation|laadpa|\\bev\\b|electric vehicle/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 1282,
+        "services": [
+          {
+            "service": "Lombardia",
+            "display": "Lombardia",
+            "host": "www.dati.lombardia.it",
+            "endpoints_in_bucket": 93,
+            "endpoints_in_pack": 131,
+            "country_codes": [
+              "IT"
+            ],
+            "formats": [
+              "json",
+              "xml",
+              "csv"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://www.dati.lombardia.it/api/views/5pug-sich/rows.json?accessType=DOWNLOAD",
+            "sample_title": "Municipality of Cremosano - Car parks",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "data.gov.au",
+            "display": "data.gov.au",
+            "host": "data.melbourne.vic.gov.au",
+            "endpoints_in_bucket": 52,
+            "endpoints_in_pack": 76,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json",
+              "csv",
+              "geojson",
+              "xml"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data.melbourne.vic.gov.au/api/explore/v2.1/catalog/datasets/on-street-car-parking-meters-with-location/records?limit=1",
+            "sample_title": "On-street Car Parking Meters with Location",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-12"
+          },
+          {
+            "service": "tabular-api.data.gouv.fr",
+            "display": "tabular-api.data.gouv.fr",
+            "host": "tabular-api.data.gouv.fr",
+            "endpoints_in_bucket": 35,
+            "endpoints_in_pack": 75,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://tabular-api.data.gouv.fr/api/resources/0feeec83-bc78-4482-a042-1ac7bdc789f7/data/?page_size=10",
+            "sample_title": "data.gouv.fr tabular API: Stationnement réglementé pour les Personnes à Mobilité Réduite dans la Commune de Lyon / Emplacement Personnes à Mobilité Réduite de la Ville de Lyon",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Grandlyon",
+            "display": "Grandlyon",
+            "host": "data.grandlyon.com",
+            "endpoints_in_bucket": 31,
+            "endpoints_in_pack": 44,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "csv",
+              "geojson",
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://data.grandlyon.com/geoserver/metropole-de-lyon/ows?SERVICE=WFS&VERSION=2.0.0&request=GetFeature&typename=metropole-de-lyon:plu_h_opposable.plustatio&outputFormat=application/json&SRSNAME=EPSG:4326",
+            "sample_title": "Métropole de Lyon: Périmètre de secteur de stationnement du PLU-H de la Métropole de Lyon / Périmètre de secteur de stationnement du PLU-H de la Métropole de Lyon",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Nantesmetropole",
+            "display": "Nantesmetropole",
+            "host": "data.nantesmetropole.fr",
+            "endpoints_in_bucket": 30,
+            "endpoints_in_pack": 69,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json",
+              "csv",
+              "geojson"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://data.nantesmetropole.fr/api/explore/v2.1/catalog/datasets/244400404_emplacements-gratuits-materialises-nantes-metropole/exports/geojson",
+            "sample_title": "Nantes Métropole: Emplacements gratuits matérialisés des stationnements Naolib de Nantes Métropole / 244400404_emplacements-gratuits-materialises-nantes-metropole.geojs",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "opendata.schleswig-holstein.de",
+            "display": "opendata.schleswig-holstein.de",
+            "host": "opendata.schleswig-holstein.de",
+            "endpoints_in_bucket": 29,
+            "endpoints_in_pack": 37,
+            "country_codes": [
+              "DE"
+            ],
+            "formats": [
+              "csv",
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://opendata.schleswig-holstein.de/dataset/46ce6d39-689e-4547-9f4e-914205000d63/resource/aae85dce-9341-4337-bdf2-91895cee9ffa/download/parkplatz-scharbeutz-badeweg-2023.json",
+            "sample_title": "Car park Scharbeutz Badeweg",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Anglet Opendatapaysbasque (Opendatasoft)",
+            "display": "Anglet Opendatapaysbasque (Opendatasoft)",
+            "host": "anglet-opendatapaysbasque.opendatasoft.com",
+            "endpoints_in_bucket": 28,
+            "endpoints_in_pack": 35,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json",
+              "csv",
+              "geojson"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://anglet-opendatapaysbasque.opendatasoft.com/api/explore/v2.1/catalog/datasets/localisation-des-places-de-stationnement-arret-minute-sur-la-commune-d-anglet/exports/json",
+            "sample_title": "Commune d'Anglet: Places de stationnement \"arrêt minute\" sur la commune d'Anglet / localisation-des-places-de-stationnement-arret-minute-sur-la-commune-d-anglet.json",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Emel",
+            "display": "Emel",
+            "host": "dados.emel.pt",
+            "endpoints_in_bucket": 27,
+            "endpoints_in_pack": 27,
+            "country_codes": [
+              "PT"
+            ],
+            "formats": [
+              "json",
+              "csv",
+              "xml"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://dados.emel.pt/api/3/action/datastore_search?resource_id=4f275433-efbc-4ce7-8d76-77003f9aa271",
+            "sample_title": "EMEL: Estatísticas do número de lugares, por freguesia e por tipologia de lugar | Statistics on the number of parking spaces by parish and type of space / A",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grounding",
+      "emoji": "🧠",
+      "name": "Grounding and data pipelines",
+      "title": "Occupancy series, car-park tables and parking tickets for scheduled loads",
+      "build": "Load car-park tables, occupancy history and parking-ticket records on a schedule into your own store, so answers about parking supply and demand cite a dated source.",
+      "filter": {
+        "and": [
+          {
+            "or": [
+              {
+                "format": [
+                  "csv",
+                  "xml",
+                  "zip",
+                  "txt",
+                  "geojson"
+                ]
+              },
+              {
+                "titleMatches": "violation|citation|penalty charge|bußgeld|bussgeld|verwarn|parkverstö|amende|infraction|\\bfine[sd]?\\b"
+              }
+            ]
+          },
+          {
+            "not": {
+              "titleMatches": "bike|bicycle|cycle|fahrrad|vélo|velo|fiets|bici|scooter|micromobil|trottinette|motorcycle|motos?\\b|2[ -]roues|deux[ -]roues"
+            }
+          }
+        ]
+      },
+      "filter_text": "(format in (csv, xml, zip, txt, geojson) OR title matches /violation|citation|penalty charge|bußgeld|bussgeld|verwarn|parkverstö|amende|infraction|\\bfine[sd]?\\b/i) AND NOT title matches /bike|bicycle|cycle|fahrrad|vélo|velo|fiets|bici|scooter|micromobil|trottinette|motorcycle|motos?\\b|2[ -]roues|deux[ -]roues/i",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 724,
+          "text": "are parking tickets, citations or fines (enforcement records); the others are files of car parks, zones and occupancy."
+        }
+      ],
+      "count": 2536,
+      "services_matching": 334,
+      "country_codes_matching": 31,
+      "formats_matching": 6,
+      "example": {
+        "url": "https://www.dati.lombardia.it/api/views/5pug-sich/rows.csv?accessType=DOWNLOAD",
+        "title": "Municipality of Cremosano - Car parks",
+        "service": "Lombardia",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `title matches /occupan|occupation|belegung|bezetting|auslastung|sensor|availab|disponib|places libres|parkingspot|status|car[ _-]?parks?|parkhaus/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 285,
+        "services": [
+          {
+            "service": "maps2.dcgis.dc.gov",
+            "display": "maps2.dcgis.dc.gov",
+            "host": "maps2.dcgis.dc.gov",
+            "endpoints_in_bucket": 330,
+            "endpoints_in_pack": 448,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/ViolationsSummary/MapServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Parking Violations Summary for 2010 - Weeks 1 to 26",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "opendata.dc.gov",
+            "display": "opendata.dc.gov",
+            "host": "opendata.dc.gov",
+            "endpoints_in_bucket": 190,
+            "endpoints_in_pack": 191,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "csv",
+              "xml",
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://opendata.dc.gov/api/download/v1/items/05fb8f671d564f188c0b10a8de4e55c8/geojson?layers=2",
+            "sample_title": "Parking Violations Issued in March 2025 - GeoJSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Lombardia",
+            "display": "Lombardia",
+            "host": "www.dati.lombardia.it",
+            "endpoints_in_bucket": 83,
+            "endpoints_in_pack": 131,
+            "country_codes": [
+              "IT"
+            ],
+            "formats": [
+              "xml",
+              "csv"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://www.dati.lombardia.it/api/views/5pug-sich/rows.csv?accessType=DOWNLOAD",
+            "sample_title": "Municipality of Cremosano - Car parks",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "datamillnorth.org",
+            "display": "datamillnorth.org",
+            "host": "datamillnorth.org",
+            "endpoints_in_bucket": 69,
+            "endpoints_in_pack": 71,
+            "country_codes": [
+              "GB"
+            ],
+            "formats": [
+              "csv"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://datamillnorth.org/download/e61xw/5ff39847-fdf0-407e-b825-715f6643df60/LCC%20Car%20Parking%20Claims.csv",
+            "sample_title": "Car Parking Claims - 2018 - 2019",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "data.gov.rs",
+            "display": "data.gov.rs",
+            "host": "data.gov.rs",
+            "endpoints_in_bucket": 65,
+            "endpoints_in_pack": 69,
+            "country_codes": [
+              "RS"
+            ],
+            "formats": [
+              "csv",
+              "geojson",
+              "zip"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data.gov.rs/s/resources/parking-1/20220115-025247/crvena-zona-2019-08-10-2019.csv",
+            "sample_title": "Град Зрењанин: Паркинг / crvena-zona-2019-08-10-2019.csv",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "NYC Open Data (Socrata)",
+            "display": "NYC Open Data (Socrata)",
+            "host": "data.cityofnewyork.us",
+            "endpoints_in_bucket": 53,
+            "endpoints_in_pack": 81,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "xml",
+              "csv",
+              "json",
+              "zip"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data.cityofnewyork.us/api/views/2bnn-yakx/rows.json?accessType=DOWNLOAD",
+            "sample_title": "Parking Violations Issued - Fiscal Year 2017 - JSON File",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Transparenzportal Hamburg",
+            "display": "Transparenzportal Hamburg",
+            "host": "archiv.transparenz.hamburg.de",
+            "endpoints_in_bucket": 45,
+            "endpoints_in_pack": 45,
+            "country_codes": [
+              "DE"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/wms_parkhaeuser_223739_snap_2.XML",
+            "sample_title": "Hamburg car parks",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Портал відкритих даних",
+            "display": "Портал відкритих даних",
+            "host": "data.gov.ua",
+            "endpoints_in_bucket": 40,
+            "endpoints_in_pack": 45,
+            "country_codes": [
+              "UA"
+            ],
+            "formats": [
+              "csv",
+              "zip"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://data.gov.ua/dataset/09ef1014-0584-4de2-af68-e03813b24a22/resource/1d7261c3-b1d1-4e52-b7c2-02d341cc7445/download/ukladeni-dogovori-za-4-i-kvartal-2020.csv",
+            "sample_title": "data.gov.ua: The list of concluded agreements of the Inspectorate for Parking Control of the Dnipro City Council / Contracts concluded for the 4th quarter of 2020.",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evals",
+      "emoji": "🧪",
+      "name": "Evals and testing",
+      "title": "Occupancy feeds, map layers and files to test a parking tool",
+      "build": "Run your parking tool against a fixed set of URLs across formats; check that name, location, capacity, occupancy and time parse, and keep last_tested as the baseline for your own re-tests.",
+      "filter": {
+        "whole": true
+      },
+      "filter_text": "the whole pack",
+      "fallback": false,
+      "notes": [],
+      "count": 12327,
+      "services_matching": 3189,
+      "country_codes_matching": 59,
+      "formats_matching": 6,
+      "example": {
+        "url": "https://maps2.dcgis.dc.gov/DCGIS/rest/services/DCGIS_DATA/Transportation_Parking_WebMercator/MapServer/156/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+        "title": "Parking Blockface - Parking Zones",
+        "service": "maps2.dcgis.dc.gov",
+        "last_tested": "2026-11-15"
+      },
+      "recommended": {
+        "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `title matches /car[ _-]?parks?|carpark|garage|parkhaus|parkhäus|parkhauser|\\blots?\\b|parking (lots?|spaces?|areas?|zones?|bays?|places?|facilit|structures?|garages?)|on[- ]street|meters?|horodateur|accessible|disabled|handicap|blue badge|\\bpmr\\b|park[ _]?(and|&|\\+|n)[ _]?ride|stationnement|parcheggi|parkplatz|parkplätz|parkeer/i AND NOT title matches /bike|bicycle|cycle|fahrrad|vélo|velo|fiets|bici|scooter|micromobil|trottinette|motorcycle|motos?\\b|2[ -]roues|deux[ -]roues/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 2914,
+        "services": [
+          {
+            "service": "Dublinked Open Data for the Dublin Regio",
+            "display": "Dublinked Open Data for the Dublin Regio",
+            "host": "data.smartdublin.ie",
+            "endpoints_in_bucket": 41,
+            "endpoints_in_pack": 41,
+            "country_codes": [
+              "IE"
+            ],
+            "formats": [
+              "csv",
+              "json",
+              "geojson",
+              "xml",
+              "zip"
+            ],
+            "formats_in_pack": 5,
+            "sample_url": "https://data.smartdublin.ie/dataset/41660b5a-e0f2-4694-af90-e6a53a1ecbc2/resource/ceb06bc9-bc1b-44dd-b8df-ba39f7e022b6/download/dlr_parking_run.geojson",
+            "sample_title": "Parking Meters, Signs & Runs DLR",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "daten.stadt.sg.ch",
+            "display": "daten.stadt.sg.ch",
+            "host": "daten.stadt.sg.ch",
+            "endpoints_in_bucket": 25,
+            "endpoints_in_pack": 25,
+            "country_codes": [
+              "CH"
+            ],
+            "formats": [
+              "xml",
+              "json",
+              "csv",
+              "txt",
+              "geojson"
+            ],
+            "formats_in_pack": 5,
+            "sample_url": "https://daten.stadt.sg.ch/api/explore/v2.1/catalog/datasets/freie-parkplatze-in-der-stadt-stgallen-pls/records?limit=1",
+            "sample_title": "freie-parkplatze-in-der-stadt-stgallen-pls",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-12"
+          },
+          {
+            "service": "ArcGIS Online: Louisville Metro KY",
+            "display": "ArcGIS Online: Louisville Metro KY",
+            "host": "louisville-metro-opendata-lojic.hub.arcgis.com",
+            "endpoints_in_bucket": 6,
+            "endpoints_in_pack": 6,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "csv",
+              "geojson",
+              "json",
+              "xml",
+              "zip"
+            ],
+            "formats_in_pack": 5,
+            "sample_url": "https://louisville-metro-opendata-lojic.hub.arcgis.com/api/download/v1/items/7cb18137f9b5485b87f31acf84193990/geojson?layers=0",
+            "sample_title": "Louisville Metro KY - Parking Meter Inventory - GeoJSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "NYC Open Data (Socrata)",
+            "display": "NYC Open Data (Socrata)",
+            "host": "data.cityofnewyork.us",
+            "endpoints_in_bucket": 81,
+            "endpoints_in_pack": 81,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json",
+              "xml",
+              "csv",
+              "zip"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data.cityofnewyork.us/api/views/gxhb-59kq/rows.json?accessType=DOWNLOAD",
+            "sample_title": "Temporary Parking Permit for People with Disabilities- On Street - JSON File",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "data.gov.au",
+            "display": "data.gov.au",
+            "host": "data.melbourne.vic.gov.au",
+            "endpoints_in_bucket": 76,
+            "endpoints_in_pack": 76,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json",
+              "csv",
+              "geojson",
+              "xml"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data.melbourne.vic.gov.au/api/explore/v2.1/catalog/datasets/on-street-car-parking-meters-with-location/records?limit=1",
+            "sample_title": "On-street Car Parking Meters with Location",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-12"
+          },
+          {
+            "service": "data.gov.rs",
+            "display": "data.gov.rs",
+            "host": "data.gov.rs",
+            "endpoints_in_bucket": 69,
+            "endpoints_in_pack": 69,
+            "country_codes": [
+              "RS"
+            ],
+            "formats": [
+              "csv",
+              "geojson",
+              "zip",
+              "json"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data.gov.rs/s/resources/parking/20210421-004809/parkingmesta-poligoni.geojson",
+            "sample_title": "Град Ниш: Паркинг / Паркинг места - полигони",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Cityofchicago",
+            "display": "Cityofchicago",
+            "host": "data.cityofchicago.org",
+            "endpoints_in_bucket": 41,
+            "endpoints_in_pack": 41,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "xml",
+              "json",
+              "csv",
+              "zip"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data.cityofchicago.org/download/2cys-9ux7/application/vnd.google-earth.kmz",
+            "sample_title": "CTA - Park & Ride Locations- kml - KMZ File",
+            "sample_format": "zip",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Lacity",
+            "display": "Lacity",
+            "host": "data.lacity.org",
+            "endpoints_in_bucket": 38,
+            "endpoints_in_pack": 38,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json",
+              "xml",
+              "csv",
+              "zip"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data.lacity.org/api/views/dik5-hwp6/rows.json?accessType=DOWNLOAD",
+            "sample_title": "Los Angeles International Airport (LAX) - Parking Lots Current Status - JSON File",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "q": "Is a given on-street parking spot in Santander occupied or vacant?",
+      "filter": "url contains \"ngsi-ld:ParkingSpot:santander\"",
+      "url": "https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:ParkingSpot:santander:parking-byda-013",
+      "title": "santander_parking-byda-013",
+      "service": "Upm",
+      "last_tested": "2026-11-12",
+      "matching": 57
+    },
+    {
+      "q": "What occupancy level do the Liverpool (New South Wales) car parks report?",
+      "filter": "url contains \"parking-occupancy-data-realtime\"",
+      "url": "https://data.liverpool.nsw.gov.au/api/explore/v2.1/catalog/datasets/parking-occupancy-data-realtime/records?limit=1",
+      "title": "Parking Occupancy Level",
+      "service": "Nsw",
+      "last_tested": "2026-11-12",
+      "matching": 1
+    },
+    {
+      "q": "Which parking violations did New York City issue in a fiscal year?",
+      "filter": "url contains \"data.cityofnewyork.us/resource/\" AND title matches /Parking Violations/i",
+      "url": "https://data.cityofnewyork.us/resource/2bnn-yakx.json?$limit=1",
+      "title": "Parking Violations Issued - Fiscal Year 2017",
+      "service": "Cuny",
+      "last_tested": "2026-11-11",
+      "matching": 13
+    }
+  ],
+  "preview_focused": true,
+  "preview": [
+    {
+      "title": "Parking Blockface",
+      "service": "maps2.dcgis.dc.gov",
+      "country": "US",
+      "category": "Transport & Mobility",
+      "subcategory": "",
+      "format": "json",
+      "tags": "transit|parking|maps|no-key|json|agent-ready",
+      "last_tested": "2026-11-14",
+      "host": "maps2.dcgis.dc.gov",
+      "url": "https://maps2.dcgis.dc.gov/DCGIS/rest/services/DCGIS_DATA/Transportation_Parking_WebMercator/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json"
+    },
+    {
+      "title": "Bicycle Parking gl348",
+      "service": "University of Exeter (ArcGIS Online)",
+      "country": "GB",
+      "category": "Transport & Mobility",
+      "subcategory": "",
+      "format": "json",
+      "tags": "transit|parking|maps|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "services5.arcgis.com",
+      "url": "https://services5.arcgis.com/N6Nhpnxaedla81he/arcgis/rest/services/Bicycle_Parking_gl348/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json"
+    },
+    {
+      "title": "Municipality of Cremosano - Car parks",
+      "service": "Lombardia",
+      "country": "IT",
+      "category": "Transport & Mobility",
+      "subcategory": "",
+      "format": "json",
+      "tags": "transit|parking|government|no-key|json|agent-ready",
+      "last_tested": "2026-11-14",
+      "host": "www.dati.lombardia.it",
+      "url": "https://www.dati.lombardia.it/api/views/5pug-sich/rows.json?accessType=DOWNLOAD"
+    },
+    {
+      "title": "Parking Violations Issued in March 2025 - GeoJSON",
+      "service": "opendata.dc.gov",
+      "country": "US",
+      "category": "Transport & Mobility",
+      "subcategory": "",
+      "format": "json",
+      "tags": "transit|parking|open-data|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "opendata.dc.gov",
+      "url": "https://opendata.dc.gov/api/download/v1/items/05fb8f671d564f188c0b10a8de4e55c8/geojson?layers=2"
+    },
+    {
+      "title": "ABM_Parking_Zones",
+      "service": "ArcGIS Online layers (services3.arcgis.com, org ExKzFjtGCmTXLlFV)",
+      "country": "US",
+      "category": "Transport & Mobility",
+      "subcategory": "",
+      "format": "json",
+      "tags": "transit|parking|maps|no-key|json|agent-ready",
+      "last_tested": "2026-11-14",
+      "host": "services3.arcgis.com",
+      "url": "https://services3.arcgis.com/ExKzFjtGCmTXLlFV/arcgis/rest/services/ABM_Parking_Zones/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json"
+    }
+  ],
+  "limits": [
+    {
+      "id": "skew",
+      "text": "61.3% of rows carry country code US; 490 rows have no code (global or unknown)."
+    },
+    {
+      "id": "stats-meta",
+      "text": "16 rows come from PxWeb or Statistics Canada services. Some statistics endpoints return metadata or a pointer on GET; the table may need a second request or a POST."
+    },
+    {
+      "id": "record-count",
+      "text": "8,619 rows are map-layer queries with resultRecordCount set: the tested call asked for a few records; change the query to get the full layer."
+    },
+    {
+      "id": "limit-1",
+      "text": "427 rows carry limit=1: the tested call asked for one record; raise the limit or page through."
+    },
+    {
+      "id": "portal",
+      "text": "782 rows are open-data portal dataset records, which may return a dataset record with links rather than the table itself."
+    },
+    {
+      "id": "files",
+      "text": "132 rows are files (zip 119, txt 13) rather than bodies an agent reads directly."
+    },
+    {
+      "id": "roots",
+      "text": "4 rows are service root addresses (the host alone or an API or version path such as /v1, with no query), which may describe the service rather than return data; the sample, examples and recommended lists use other rows first."
+    },
+    {
+      "id": "arcgis-online",
+      "text": "7,017 rows are layers on ArcGIS Online, where anyone can publish: some are class projects, tests or copies. Check the owner and the fields before you rely on one."
+    },
+    {
+      "id": "pack",
+      "text": "1,701 rows carry the parking tag but have no parking term in the title; many are layers of parks, trails, streets, polling places or city property. Check the title before you use one; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "57 rows are Washington DC planimetric layers by year (swimming pools, sidewalks, wooded areas, parking lots and more) filed under the parking tag; only some are about parking."
+    },
+    {
+      "id": "pack",
+      "text": "724 rows are parking tickets, citations or fines (Washington DC monthly layers, New York City fiscal years and others): enforcement records, not places to park."
+    },
+    {
+      "id": "pack",
+      "text": "1,092 rows are bicycle, scooter or motorcycle parking."
+    },
+    {
+      "id": "pack",
+      "text": "19 rows are solar-potential or solar-panel layers (some list parking as one kind of surface), not parking data."
+    },
+    {
+      "id": "pack",
+      "text": "27 rows are about electric-vehicle charging points, some at car parks."
+    },
+    {
+      "id": "pack",
+      "text": "24 rows have a dataset id marked as a test; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "57 rows are single on-street parking spots in Santander, Spain, one address per spot."
+    },
+    {
+      "id": "pack",
+      "text": "Many map layers carry no country code, and some carry one that does not match the place in their title (layers from Malaysia or Quebec coded US); check the title or the host when you filter by country."
+    },
+    {
+      "id": "quiet",
+      "text": "Stations and feeds can go quiet after their test date; re-test a URL before you rely on it."
+    },
+    {
+      "id": "not-in",
+      "text": "Not in this pack: endpoints that need a key or a POST, and URLs that did not pass."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 177 ArcGIS Survey123 layers (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 2 layers marked editable in the title (they can hold entries that people added)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 21 ArcGIS layers that keep a form's default service name (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 98 ArcGIS class or coursework layers (lab, assignment, exam, quiz, lesson, exercise, tutorial and final-project layers, copies of class layers, layers named for a person or a person's home, and layers whose name ends in a person's name or holds a student number)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 19 ArcGIS layers that hold reports, comments, submissions or form responses sent in by the public."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 7 rows of server information from Mastodon, PeerTube, Lemmy, Nostr and other social network servers (instance documents name the server's contact person)."
+    }
+  ],
+  "name": "12k-parking-apis-for-agents",
+  "old_name": "parking-api-endpoints",
+  "services_tested": {
+    "services": 3164,
+    "tested": 1020695,
+    "passed": 864371,
+    "passed_pct": 84,
+    "line": "Across these services: 1.0M tested · 84% passed a keyless call",
+    "note": "Counted over the 3,164 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+  },
+  "overlaps": [
+    {
+      "repo": "weather-api-endpoints",
+      "name": "190k-weather-apis-for-agents",
+      "title": "Weather API endpoints",
+      "shared": 104
+    },
+    {
+      "repo": "transit-api-endpoints",
+      "name": "270k-transit-apis-for-agents",
+      "title": "Transit API endpoints",
+      "shared": 12327
+    },
+    {
+      "repo": "water-api-endpoints",
+      "name": "270k-water-apis-for-agents",
+      "title": "Rivers and water API endpoints",
+      "shared": 114
+    },
+    {
+      "repo": "finance-economy-api-endpoints",
+      "name": "130k-finance-economy-apis-for-agents",
+      "title": "Finance and economy API endpoints",
+      "shared": 13
+    },
+    {
+      "repo": "india-api-endpoints",
+      "name": "130k-india-apis-for-agents",
+      "title": "India API endpoints",
+      "shared": 29
+    },
+    {
+      "repo": "government-open-data-api-endpoints",
+      "name": "1.3m-government-open-data-apis",
+      "title": "Government open data API endpoints",
+      "shared": 846
+    },
+    {
+      "repo": "statistics-api-endpoints",
+      "name": "290k-statistics-apis-for-agents",
+      "title": "Statistics and census API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "oceans-api-endpoints",
+      "name": "86k-oceans-apis-for-agents",
+      "title": "Ocean and marine API endpoints",
+      "shared": 5
+    },
+    {
+      "repo": "maritime-api-endpoints",
+      "name": "24k-maritime-apis-for-agents",
+      "title": "Maritime API endpoints",
+      "shared": 60
+    },
+    {
+      "repo": "environment-api-endpoints",
+      "name": "170k-environment-apis-for-agents",
+      "title": "Environment API endpoints",
+      "shared": 1
+    },
+    {
+      "repo": "air-quality-api-endpoints",
+      "name": "20k-air-quality-apis-for-agents",
+      "title": "Air quality API endpoints",
+      "shared": 1
+    },
+    {
+      "repo": "maps-gis-api-endpoints",
+      "name": "380k-maps-gis-apis-for-agents",
+      "title": "Maps and GIS API endpoints",
+      "shared": 146
+    },
+    {
+      "repo": "agent-ready-api-endpoints",
+      "name": "2.5m-agent-ready-apis",
+      "title": "Agent-ready API endpoints",
+      "shared": 10126
+    },
+    {
+      "repo": "health-api-endpoints",
+      "name": "96k-health-apis-for-agents",
+      "title": "Health API endpoints",
+      "shared": 1
+    },
+    {
+      "repo": "science-api-endpoints",
+      "name": "380k-science-apis-for-agents",
+      "title": "Science API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "hazards-api-endpoints",
+      "name": "53k-hazards-apis-for-agents",
+      "title": "Hazards and alerts API endpoints",
+      "shared": 39
+    },
+    {
+      "repo": "wildfire-api-endpoints",
+      "name": "6.5k-wildfire-apis-for-agents",
+      "title": "Wildfire API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "energy-api-endpoints",
+      "name": "72k-energy-apis-for-agents",
+      "title": "Energy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "aviation-api-endpoints",
+      "name": "25k-aviation-apis-for-agents",
+      "title": "Aviation API endpoints",
+      "shared": 26
+    },
+    {
+      "repo": "traffic-api-endpoints",
+      "name": "24k-traffic-apis-for-agents",
+      "title": "Traffic and roadworks API endpoints",
+      "shared": 120
+    },
+    {
+      "repo": "earthquake-api-endpoints",
+      "name": "10k-earthquake-apis-for-agents",
+      "title": "Earthquake API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "volcano-tsunami-api-endpoints",
+      "name": "5.2k-volcano-tsunami-apis-for-agents",
+      "title": "Volcano and tsunami API endpoints",
+      "shared": 1
+    },
+    {
+      "repo": "bike-share-api-endpoints",
+      "name": "17k-bike-share-apis-for-agents",
+      "title": "Bike-share API endpoints",
+      "shared": 3
+    }
+  ],
+  "pack_count": 24,
+  "services_file_rows": 3189,
+  "sample_mix": [
+    {
+      "source": "ArcGIS Online layers",
+      "focus_rows": 6070,
+      "sample_rows": 431
+    },
+    {
+      "source": "maps2.dcgis.dc.gov",
+      "focus_rows": 263,
+      "sample_rows": 20
+    },
+    {
+      "source": "Lombardia (www.dati.lombardia.it)",
+      "focus_rows": 131,
+      "sample_rows": 10
+    },
+    {
+      "source": "opendata.dc.gov",
+      "focus_rows": 103,
+      "sample_rows": 8
+    },
+    {
+      "source": "NYC Open Data (Socrata) (data.cityofnewyork.us)",
+      "focus_rows": 79,
+      "sample_rows": 7
+    },
+    {
+      "source": "tabular-api.data.gouv.fr",
+      "focus_rows": 75,
+      "sample_rows": 6
+    },
+    {
+      "source": "data.gov.au (data.melbourne.vic.gov.au)",
+      "focus_rows": 71,
+      "sample_rows": 6
+    },
+    {
+      "source": "datamillnorth.org",
+      "focus_rows": 71,
+      "sample_rows": 6
+    },
+    {
+      "source": "Nantesmetropole (data.nantesmetropole.fr)",
+      "focus_rows": 69,
+      "sample_rows": 6
+    },
+    {
+      "source": "data.gov.rs",
+      "focus_rows": 67,
+      "sample_rows": 6
+    }
+  ],
+  "sample_focus_rows": 10586,
+  "sample_rule": "1,000 rows, or one third of the pack rounded down, whichever is smaller",
+  "files": [
+    {
+      "name": "data/Parking_API_Services_AgentPopulation.csv",
+      "rows": 3189,
+      "bytes": 189986,
+      "sha256": "34c79026ff660ed9b9b24e428f02445058e1acb4b345e8ef9acb5c9156d4b903"
+    },
+    {
+      "name": "data/Parking_API_Endpoints_AgentPopulation_Sample.csv",
+      "rows": 1000,
+      "bytes": 330971,
+      "sha256": "cad01a04882d5c0b595218ea47d0431fb999a78d0527f106033ff86c38d02458"
+    },
+    {
+      "name": "data/Parking_API_Endpoints_AgentPopulation_Sample.json",
+      "rows": 1000,
+      "bytes": 531528,
+      "sha256": "3cd014ea1ace8f5ac5745e3e1bb65747b738c8c70cccd163d8d7a582c63a287e"
+    }
+  ],
+  "release_asset": {
+    "name": "Parking_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+    "rows": 12327,
+    "bytes": 674283,
+    "raw_bytes": 4116338,
+    "sha256": "dec3c86673cf2374e323d78d08e47d0c3dbe8986257b469110812b5316108a98",
+    "url": "https://github.com/agentpopulation/12k-parking-apis-for-agents/releases/latest/download/Parking_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz"
+  },
+  "release_tag": "snapshot-2026-11-15",
+  "description": "12,327 parking API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "readme_ap_share": 0.085,
+  "country_counts": {
+    "US": 7552,
+    "FR": 806,
+    "GB": 743,
+    "": 490,
+    "DE": 371,
+    "CA": 369,
+    "AU": 295,
+    "IT": 237,
+    "BE": 171,
+    "CH": 166,
+    "IE": 126,
+    "ES": 123,
+    "CZ": 88,
+    "GR": 77,
+    "RS": 69,
+    "AT": 62,
+    "NZ": 59,
+    "SE": 55,
+    "SK": 51,
+    "NL": 47,
+    "UA": 46,
+    "PT": 34,
+    "PL": 31,
+    "IN": 29,
+    "LU": 27,
+    "HK": 23,
+    "JP": 20,
+    "SI": 20,
+    "IL": 19,
+    "CN": 18,
+    "FI": 12,
+    "EU": 9,
+    "HR": 8,
+    "TW": 8,
+    "NO": 7,
+    "KR": 6,
+    "ZA": 6,
+    "DK": 4,
+    "EE": 4,
+    "SG": 4,
+    "AL": 3,
+    "RU": 3,
+    "SA": 3,
+    "TG": 3,
+    "BG": 2,
+    "CO": 2,
+    "IO": 2,
+    "JM": 2,
+    "LT": 2,
+    "PH": 2,
+    "VI": 2,
+    "BB": 1,
+    "FO": 1,
+    "HN": 1,
+    "LV": 1,
+    "MX": 1,
+    "MY": 1,
+    "TH": 1,
+    "TR": 1,
+    "VC": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "12k-parking-apis-for-agents",
+  "old_name": "parking-api-endpoints",
+  "new_name": "12k-parking-apis-for-agents",
+  "url": "https://github.com/agentpopulation/12k-parking-apis-for-agents",
+  "description": "12,327 parking API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "homepage": "https://agentpopulation.com/apis",
+  "topics": [
+    "api-endpoints",
+    "open-data",
+    "dataset",
+    "ai-agents",
+    "agent-tools",
+    "agentpopulation",
+    "parking",
+    "parking-data",
+    "car-parks",
+    "parking-occupancy",
+    "smart-parking",
+    "smart-city",
+    "mobility",
+    "urban-mobility",
+    "geospatial"
+  ],
+  "release": {
+    "tag": "snapshot-2026-11-15",
+    "title": "Parking API endpoints · snapshot 15 Nov 2026 · 12,327 endpoints",
+    "notesFile": "RELEASE_NOTES.md",
+    "manifest": "../_release/parking-api-endpoints/release.json",
+    "assets": [
+      "../_release/parking-api-endpoints/Parking_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+      "../_release/parking-api-endpoints/SHA256SUMS.txt"
+    ]
+  }
+}
